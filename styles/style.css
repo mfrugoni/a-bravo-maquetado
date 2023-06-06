@@ -1,8 +1,12 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&family=Quicksand:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Quicksand', 'Arial Narrow', Arial, sans-serif;
 }
 
 header {
@@ -35,7 +39,8 @@ nav>a {
 }
 
 nav>a:hover {
-    color: #ab6791;
+    /* color: #ab6791; */
+    color: #563449;
 }
 
 @media only screen and (min-width: 400px){
