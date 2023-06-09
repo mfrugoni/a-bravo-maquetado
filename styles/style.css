@@ -24,12 +24,6 @@ header img {
     height: 8vh;
 }
 
-#top {
-    display: flex;
-    flex-flow: row wrap;
-    
-}
-
 nav {
     width: 100%;
     display: flex;
@@ -56,6 +50,40 @@ main {
     flex-flow: column;
     padding: 1rem;
     gap: 2rem;
+    background-color: #F5EBEB;
+}
+
+.portales {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1rem;
+}
+
+#fed-pat, #riva{
+    width: 190px;
+    height: 70px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7px 5px;
+    font-weight: 500;
+    font-size: 0.9rem;
+    text-decoration: none;
+    color:#002B5B;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+}
+
+#fed-pat>img {
+    width: 150px;
+}
+
+#riva>img {
+    width: 100px;
 }
 
 .title {
