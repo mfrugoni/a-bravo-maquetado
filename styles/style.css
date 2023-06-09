@@ -40,7 +40,12 @@ nav>a {
 
 nav>a:hover {
     /* color: #ab6791; */
+    color: #89375F;
+}
+
+.current {
     color: #563449;
+    font-size: larger;
 }
 
 main {
@@ -59,6 +64,7 @@ main {
     justify-content: space-evenly;
     align-items: center;
     gap: 1rem;
+    padding: 1rem;
 }
 
 #fed-pat, #riva{
@@ -67,7 +73,7 @@ main {
     display: flex;
     flex-flow: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between ;
     padding: 7px 5px;
     font-weight: 500;
     font-size: 0.9rem;
@@ -76,6 +82,10 @@ main {
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 10px;
+}
+
+#fed-pat {
+    justify-content: space-around;
 }
 
 #fed-pat>img {
