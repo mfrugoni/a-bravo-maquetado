@@ -2,6 +2,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
 
+/* CSS variables */
+:root {
+    --main-bg-color: #b27a9c;
+    --main-bg-color-dark: #ab6791;
+    --main-bg-color-ligth: #F5EBEB;
+    --dark-text-color: #563449;
+
+    --text-blue: #002B5B;
+  }
+  
+/* Reset */
 * {
     margin: 0;
     padding: 0;
@@ -9,6 +20,7 @@
     font-family: 'Quicksand', 'Arial Narrow', Arial, sans-serif;
 }
 
+/* Header */
 header {
     width: 100%;
     height: 20vh;
@@ -16,7 +28,7 @@ header {
     flex-flow: column;
     justify-content: space-around;
     align-items: center;
-    background-color: #b27a9c;
+    background-color: var(--main-bg-color );
     padding: 1.5rem;
 }
 
@@ -39,71 +51,35 @@ nav>a {
 }
 
 nav>a:hover {
-    /* color: #ab6791; */
     color: #89375F;
 }
 
 .current {
-    color: #563449;
+    color: var(--dark-text-color);
     font-size: larger;
 }
 
+/* Main */
 main {
     width: 100%;
     min-height: 80vh;
     display: flex;
     flex-flow: column;
-    padding: 1rem;
+    padding: 1rem 0;
     gap: 2rem;
-    background-color: #F5EBEB;
-}
-
-.portales {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 1rem;
-    padding: 1rem;
-}
-
-#fed-pat, #riva{
-    width: 190px;
-    height: 70px;
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    justify-content: space-between ;
-    padding: 7px 5px;
-    font-weight: 500;
-    font-size: 0.9rem;
-    text-decoration: none;
-    color:#002B5B;
-    background-color: white;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    border-radius: 10px;
-}
-
-#fed-pat {
-    justify-content: space-around;
-}
-
-#fed-pat>img {
-    width: 150px;
-}
-
-#riva>img {
-    width: 100px;
+    background-color: var(--main-bg-color-ligth);
 }
 
 .title {
+    width: 100%;
     display: flex;
     flex-flow: column;
     justify-content: space-between;
     align-items: center;
     gap: 0.5rem;
-    color: #563449;
-
+    padding: 1rem 0;
+    color: white;
+    background-color: var(--main-bg-color-dark);
 }
 
 #products {
@@ -129,7 +105,7 @@ main {
 .card h3, .card h5 {
     width: 163px;
     text-align: center;
-    color: #563449;
+    color: var(--dark-text-color);
 }
 
 .card-icon {
@@ -139,7 +115,7 @@ main {
     width: 60px;
     height: 60px;
     border-radius: 10px;
-    background-color: #ab6791;
+    background-color: var(--main-bg-color-dark);
 }
 
 i {
@@ -147,10 +123,53 @@ i {
     color: white;
 }
 
+/* Links aseguradoras */
+.portales {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+}
 
+#fed-pat, #riva{
+    width: 190px;
+    height: 70px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between ;
+    padding: 7px 5px;
+    font-weight: 500;
+    font-size: 0.9rem;
+    text-decoration: none;
+    color:var(--text-blue);
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+}
+
+#fed-pat {
+    justify-content: space-around;
+}
+
+#fed-pat>img {
+    width: 150px;
+}
+
+#riva>img {
+    width: 100px;
+}
+
+/* Media queries */
 @media only screen and (min-width: 400px){
     header {
         height: 17vh;
         padding: 0.5rem;
+    }
+
+    .portales {
+        padding: 2rem;
     }
 }
