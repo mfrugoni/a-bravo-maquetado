@@ -10,6 +10,7 @@
     --dark-text-color: #563449;
 
     --text-blue: #002B5B;
+    --whatsapp-green: #25d366;
   }
   
 /* Reset */
@@ -73,6 +74,44 @@ nav>a:hover {
     background-color: var(--main-bg-color-ligth);
 }
 
+.quote {
+    padding: 0.5em;
+    background-color: white;
+    outline: 1px solid var(--main-bg-color);
+    /* border: 2px solid var(--main-bg-color); */
+    border-top: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.quote:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    outline: 3px solid var(--main-bg-color);
+}
+
+.quote>a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    text-align: center;
+    color: var(--dark-text-color);
+    text-decoration: none;
+}
+
+.wp {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: var(--whatsapp-green);
+    padding: 0.5em;
+    border-radius: 50%;
+    font-size: 1.5rem;
+}
+
 .title {
     width: 100%;
     text-align: center;
@@ -130,7 +169,7 @@ nav>a:hover {
     background-color: var(--main-bg-color-dark);
 }
 
-i {
+.card-icon>i {
     font-size: 2rem;
     color: white;
 }
@@ -223,6 +262,15 @@ i {
 
     header img {
         height: 65px;
+    }
+
+    .quote {
+        align-self: flex-end;
+        margin-right: 1%;
+    }
+
+    .card {
+        width: 280px;
     }
 
     .portales {
