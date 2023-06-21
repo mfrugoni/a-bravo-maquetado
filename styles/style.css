@@ -70,7 +70,7 @@ nav>a:hover {
 }
 
 /* Main */
-#home {
+#main-home {
     width: 100%;
     min-height: 80vh;
     display: flex;
@@ -78,14 +78,14 @@ nav>a:hover {
     align-items: center;
     /* padding: 1rem 0; */
     /* gap: 2rem; */
-    background-color: var(--main-bg-color-ligth);
+    /* background-color: var(--main-bg-color-ligth); */
 }
 
 .quote {
     position:absolute;
     padding: 0.5em;
-    background-color: white;
-    outline: 1px solid var(--main-bg-color);
+    background-color: var(--main-bg-color-ligth);
+    outline: 2px solid var(--main-bg-color);
     border-top: 0;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -157,7 +157,7 @@ nav>a:hover {
     justify-content: space-around;
     align-items: center;
     border-radius: 10px;
-    background-color: white;
+    background-color: var(--main-bg-color-ligth);
     padding: 0.5rem;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 }
@@ -185,6 +185,10 @@ nav>a:hover {
 
 .datos>p {
     font-size: 12px;
+}
+
+.card-link {
+    text-decoration: none;
 }
 
 /* Links aseguradoras */
@@ -228,8 +232,7 @@ nav>a:hover {
 
 
 /* Contact */
-
-#contact, #faq {
+#main-contact, #main-faq {
     width: 100%;
     min-height: 90vh;
     display: flex;
@@ -237,7 +240,7 @@ nav>a:hover {
     align-items: center;
     /* padding: 1rem 0; */
     /* gap: 2rem; */
-    background-color: var(--main-bg-color-ligth);
+    background-color: white;
 }
 
 .contact-cards {
@@ -255,7 +258,7 @@ nav>a:hover {
 }
 
 .contact-cards .card:hover {
-    outline: 3px solid white;
+    outline: 3px solid var(--main-bg-color-ligth);
     box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 }
 
@@ -283,7 +286,7 @@ nav>a:hover {
         padding: 2rem;
     }
 
-    #contact .title {
+    #main-contact .title {
         font-size: 1.5em;
     }
 }

@@ -4,7 +4,7 @@ const productsData = [
     {
         id: 1,
         title: 'HOGAR',
-        img: './assets/img/hogar.png',
+        icon: './assets/img/hogar.png',
         alt: 'icono hogar',
         description: 'Te ofrecemos distintos tipos de coberturas y asistencias para que tu hogar esté protegido ante cualquier siniestro.'
     },
@@ -12,7 +12,7 @@ const productsData = [
     {
         id: 2,
         title: 'AUTOMOTOR',
-        img: './assets/img/auto.png',
+        icon: './assets/img/auto.png',
         alt: 'icono auto',
         description: 'Variadas coberturas de acuerdo a sus necesidades, para que pueda conducir su vehiculo con toda la tranquilidad y seguridad que le podemos brindar.'
     },
@@ -20,7 +20,7 @@ const productsData = [
     {
         id: 3,
         title: 'VIDA',
-        img: './assets/img/vida.png',
+        icon: './assets/img/vida.png',
         alt: 'icono vida',
         description: 'Un seguro de vida brinda tranquilidad y protección financiera para vos y tus seres queridos'
     },
@@ -28,7 +28,7 @@ const productsData = [
     {
         id: 4,
         title: 'COMBINADO FAMILIAR',
-        img: './assets/img/family.png',
+        icon: './assets/img/family.png',
         alt: 'icono familia',
         description: ''
     },
@@ -36,7 +36,7 @@ const productsData = [
     {
         id: 5,
         title: 'INCENDIO',
-        img: './assets/img/incendio.png',
+        icon: './assets/img/incendio.png',
         alt: 'icono incendio',
         description: ''
     },
@@ -44,7 +44,7 @@ const productsData = [
     {
         id: 6,
         title: 'INTEGRAL DE COMERCIO',
-        img: './assets/img/comercio.png',
+        icon: './assets/img/comercio.png',
         alt: 'icono comercio',
         description: ''
     },
@@ -52,7 +52,7 @@ const productsData = [
     {
         id: 7,
         title: 'A.R.T.',
-        img: './assets/img/accidente.png',
+        icon: './assets/img/accidente.png',
         alt: 'icono accidente',
         description: ''
     },
@@ -60,7 +60,7 @@ const productsData = [
     {
         id: 8,
         title: 'TURISMO AVENTURA',
-        img: './assets/img/caminante.png',
+        icon: './assets/img/caminante.png',
         alt: 'icono aventura',
         description: ''
     }

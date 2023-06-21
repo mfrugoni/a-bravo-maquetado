@@ -7,7 +7,7 @@ function createProducts(dataArray){
         cardString += `
         <div class="card">
         <div class="card-icon">
-            <img src="${product.img}" alt="${product.alt}" title="${product.description}">
+            <img src="${product.icon}" alt="${product.alt}" title="${product.description}">
         </div>
 
         <h3>${product.title}</h3>
@@ -18,5 +18,5 @@ function createProducts(dataArray){
     return cardString;
 }
 
-const products = document.getElementById('products');
-products.innerHTML = createProducts(productsData);
+// const products = document.getElementById('products');
+// products.innerHTML = createProducts(productsData);
