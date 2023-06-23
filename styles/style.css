@@ -108,8 +108,8 @@ nav>a:hover {
 }
 
 .wp {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -117,7 +117,7 @@ nav>a:hover {
     background-color: var(--whatsapp-green);
     padding: 0.5em;
     border-radius: 30%;
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
     box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
 }
 
@@ -159,8 +159,9 @@ nav>a:hover {
     align-items: center;
     border-radius: 10px;
     background-color: var(--main-bg-color-ligth);
+    outline: 2px solid var(--main-bg-color);
     padding: 0.5rem;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .card h3, .card h5, .card p {
@@ -312,6 +313,29 @@ nav>a:hover {
     color: var(--dark-text-color);
 }
 
+.now {
+    padding: 0.5em;
+    background-color: var(--main-bg-color-ligth);
+    outline: 2px solid var(--main-bg-color);
+    border-top: 0;
+    border-radius: 10px;
+}
+
+.now:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    outline: 3px solid var(--main-bg-color);
+}
+
+.now>a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+    text-align: center;
+    color: var(--dark-text-color);
+    text-decoration: none;
+}
+
 /* Media queries */
 @media only screen and (min-width: 400px){
     header {
@@ -355,7 +379,6 @@ nav>a:hover {
         padding: 8px 0;
     }
     .detail {
-        gap: 0;
         margin: 0 1.5rem 1.5rem 1.5rem;
     }
 }
