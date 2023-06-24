@@ -336,6 +336,41 @@ nav>a:hover {
     text-decoration: none;
 }
 
+footer {
+    width: 100%;
+    min-height: 10vh;
+    /* display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-items: center; */
+    padding: 1rem;
+    gap: 1rem;
+    background-color: var(--main-bg-color-dark);
+    color: var(--main-bg-color-ligth);
+}
+
+footer>p>a {
+    text-decoration: none;
+    color: white;
+}
+
+footer>p>a:hover {
+    color: var(--dark-text-color);
+}
+
+/* #copy {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+} */
+
+#brands {
+    font-size: 0.7rem;
+    text-align: center;
+}
+
 /* Media queries */
 @media only screen and (min-width: 400px){
     header {
