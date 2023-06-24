@@ -233,7 +233,7 @@ nav>a:hover {
 }
 
 /* Contact */
-#main-contact, #main-faq, #main-auto {
+#main-contact, #main-faq, #main-auto, #main-about {
     width: 100%;
     min-height: 90vh;
     display: flex;
