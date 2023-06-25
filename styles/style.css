@@ -279,9 +279,9 @@ nav>a:hover {
     flex-flow: column;
     justify-content: flex-start;
     align-items: center;
-    background: url(../assets/img/automotor2.jpg);
+    background-image: url(../assets/img/automotor2.jpg);
     background-size: cover;
-    background-position: 50% 80%;
+    background-position: center;
 }
 
 #hero>h2 {
