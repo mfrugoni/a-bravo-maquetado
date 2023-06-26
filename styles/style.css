@@ -259,7 +259,7 @@ nav>a:hover {
 }
 
 .contact-cards .card:hover {
-    outline: 3px solid var(--main-bg-color-ligth);
+    outline: 3px solid var(--main-bg-color);
     box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 }
 
@@ -274,22 +274,22 @@ nav>a:hover {
 
 #hero {
     width: 100%;
-    height: 30vh;
+    padding-top: 45.82%;
+    background-image: url(../assets/img/automotor2.jpg);
+    background-size: cover;
+    background-position: center;
     display: flex;
     flex-flow: column;
     justify-content: flex-start;
     align-items: center;
-    background-image: url(../assets/img/automotor2.jpg);
-    background-size: cover;
-    background-position: center;
 }
 
-#hero>h2 {
+#main-auto>h2 {
     text-align: center;
     width: 100%;
     color: white;
-    background-color: rgb(178 122 156 / 0.6);
-    padding: 4px 0;
+    background-color: var(--main-bg-color-dark);
+    padding: 8px 0;
 }
 
 .detail {
@@ -299,7 +299,7 @@ nav>a:hover {
     justify-content: space-around;
     align-items: center;
     gap: 1rem;
-    padding: 1rem;
+    padding: 2rem 1rem;
     margin: 0 1rem 1rem 1rem;
     background-color: var(--main-bg-color-ligth);
     border-right: 2px dotted var(--main-bg-color-dark);
@@ -314,6 +314,7 @@ nav>a:hover {
 }
 
 .now {
+    align-self: flex-end;
     padding: 0.5em;
     background-color: var(--main-bg-color-ligth);
     outline: 2px solid var(--main-bg-color);
