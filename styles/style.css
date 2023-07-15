@@ -215,6 +215,7 @@ nav>a:hover {
     font-size: 0.9rem;
     text-decoration: none;
     color:var(--text-blue);
+    outline: 2px solid var(--text-blue);
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 10px;
