@@ -306,7 +306,6 @@ nav>a:hover {
     border-right: 2px dotted var(--main-bg-color-dark);
     border-left: 2px dotted var(--main-bg-color-dark);
     border-bottom: 2px dotted var(--main-bg-color-dark);
-
 }
 
 .detail>p {
@@ -336,6 +335,23 @@ nav>a:hover {
     text-align: center;
     color: var(--dark-text-color);
     text-decoration: none;
+}
+
+
+/* About */
+
+.about-name {
+    margin-top: 0;
+}
+
+#profile {
+    width: 250px;
+}
+
+#about-me {
+    justify-content: space-evenly;
+    text-align: center;
+    border-top: 2px dotted var(--main-bg-color-dark);
 }
 
 footer {
