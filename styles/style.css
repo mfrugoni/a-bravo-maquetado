@@ -339,7 +339,6 @@ nav>a:hover {
 
 
 /* About */
-
 .about-name {
     margin-top: 0;
 }
@@ -354,6 +353,8 @@ nav>a:hover {
     border-top: 2px dotted var(--main-bg-color-dark);
 }
 
+
+/* Footer */
 footer {
     display: flex;
     flex-flow: column;
