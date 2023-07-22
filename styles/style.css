@@ -353,6 +353,17 @@ nav>a:hover {
     border-top: 2px dotted var(--main-bg-color-dark);
 }
 
+/* FAQ */
+
+#questions {
+    width: 100%;
+    padding: 1rem;
+    gap: 1rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
 
 /* Footer */
 footer {
