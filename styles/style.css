@@ -337,6 +337,11 @@ nav>a:hover {
     text-decoration: none;
 }
 
+.back {
+    align-self: center;
+    margin-bottom: 1rem;
+}
+
 
 /* About */
 .about-name {
