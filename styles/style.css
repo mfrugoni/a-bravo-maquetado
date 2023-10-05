@@ -303,9 +303,9 @@ nav>a:hover {
     padding: 2rem 1rem;
     margin: 0 1rem 1rem 1rem;
     background-color: var(--main-bg-color-ligth);
-    border-right: 2px dotted var(--main-bg-color-dark);
-    border-left: 2px dotted var(--main-bg-color-dark);
-    border-bottom: 2px dotted var(--main-bg-color-dark);
+    border-right: 3px dotted var(--main-bg-color-dark);
+    border-left: 3px dotted var(--main-bg-color-dark);
+    border-bottom: 3px dotted var(--main-bg-color-dark);
 }
 
 .detail>p {
@@ -355,7 +355,7 @@ nav>a:hover {
 #about-me {
     justify-content: space-evenly;
     text-align: center;
-    border-top: 2px dotted var(--main-bg-color-dark);
+    border-top: 3px dotted var(--main-bg-color-dark);
 }
 
 /* FAQ */
