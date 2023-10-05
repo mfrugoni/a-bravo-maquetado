@@ -215,6 +215,7 @@ nav>a:hover {
     font-size: 0.9rem;
     text-decoration: none;
     color:var(--text-blue);
+    outline: 2px solid var(--text-blue);
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 10px;
@@ -302,10 +303,9 @@ nav>a:hover {
     padding: 2rem 1rem;
     margin: 0 1rem 1rem 1rem;
     background-color: var(--main-bg-color-ligth);
-    border-right: 2px dotted var(--main-bg-color-dark);
-    border-left: 2px dotted var(--main-bg-color-dark);
-    border-bottom: 2px dotted var(--main-bg-color-dark);
-
+    border-right: 3px dotted var(--main-bg-color-dark);
+    border-left: 3px dotted var(--main-bg-color-dark);
+    border-bottom: 3px dotted var(--main-bg-color-dark);
 }
 
 .detail>p {
@@ -337,6 +337,40 @@ nav>a:hover {
     text-decoration: none;
 }
 
+.back {
+    align-self: center;
+    margin-bottom: 1rem;
+}
+
+
+/* About */
+.about-name {
+    margin-top: 0;
+}
+
+#profile {
+    width: 250px;
+}
+
+#about-me {
+    justify-content: space-evenly;
+    text-align: center;
+    border-top: 3px dotted var(--main-bg-color-dark);
+}
+
+/* FAQ */
+
+#questions {
+    width: 100%;
+    padding: 1rem;
+    gap: 1rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/* Footer */
 footer {
     display: flex;
     flex-flow: column;
