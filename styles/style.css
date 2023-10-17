@@ -147,7 +147,7 @@ nav>a:hover {
     flex-flow: row wrap;
     justify-content: space-evenly;
     gap: 2rem;
-    padding: 2rem 0;
+    padding: 2rem 1rem;
 }
 
 .card {
@@ -264,15 +264,7 @@ nav>a:hover {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 }
 
-/* Seguro automotor */
-
-/* #main-auto>img {
-    width: 100%;
-    max-height: 500px;
-    object-fit: cover;
-    object-position: 50% 80%;
-} */
-
+/* Insurances details */
 #hero {
     width: 100%;
     padding-top: 45.82%;
@@ -285,7 +277,7 @@ nav>a:hover {
     align-items: center;
 }
 
-#main-auto>h2 {
+#main-auto>h2, #main-home>h2 {
     text-align: center;
     width: 100%;
     color: white;
@@ -298,7 +290,6 @@ nav>a:hover {
     display: flex;
     flex-flow: column;
     justify-content: space-around;
-    align-items: center;
     gap: 1rem;
     padding: 2rem 1rem;
     margin: 0 1rem 1rem 1rem;
@@ -311,6 +302,21 @@ nav>a:hover {
 .detail>p {
     font-size: 1.2rem;
     color: var(--dark-text-color);
+    line-height: 1.8rem;
+}
+
+.detail dl {
+    color: var(--dark-text-color);
+    line-height: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+.detail dd {
+    padding-bottom: 1rem;
+}
+
+.detail dt {
+    font-weight: 500;
 }
 
 .now {
