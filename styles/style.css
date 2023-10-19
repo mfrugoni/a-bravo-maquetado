@@ -70,7 +70,7 @@ nav>a:hover {
 }
 
 /* Main */
-#main-home {
+#main-index {
     width: 100%;
     min-height: 80vh;
     display: flex;
@@ -234,7 +234,7 @@ nav>a:hover {
 }
 
 /* Contact */
-#main-contact, #main-faq, #main-auto, #main-about {
+#main-contact, #main-faq, #main-about, #main-products {
     width: 100%;
     min-height: 90vh;
     display: flex;
@@ -265,7 +265,7 @@ nav>a:hover {
 }
 
 /* Insurances details */
-#hero {
+.hero-auto {
     width: 100%;
     padding-top: 45.82%;
     background-image: url(../assets/img/automotor2.jpg);
@@ -277,7 +277,11 @@ nav>a:hover {
     align-items: center;
 }
 
-#main-auto>h2, #main-home>h2 {
+.hero-home {
+    background-image: url(../assets/img/hogar-1.jpg);
+}
+
+#main-home>h2, #main-products>h2 {
     text-align: center;
     width: 100%;
     color: white;
@@ -468,7 +472,7 @@ footer {
         height: 85vh;
     }
 
-    #hero>h2 {
+    #main-products>h2 {
         font-size: 36px;
         padding: 8px 0;
     }
