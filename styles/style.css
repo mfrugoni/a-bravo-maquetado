@@ -291,6 +291,11 @@ nav>a:hover {
     background-image: url(../assets/img/accident.jpg);
 }
 
+.hero-fire {
+    padding-top: 66.77%;
+    background-image: url(../assets/img/fire.jpg);
+}
+
 #main-home>h2, #main-products>h2 {
     text-align: center;
     width: 100%;
