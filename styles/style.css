@@ -295,6 +295,10 @@ nav>a:hover {
     background-image: url(../assets/img/integral.jpg);
 }
 
+.hero-art {
+    background-image: url(../assets/img/art.jpg);
+}
+
 .hero-fire {
     padding-top: 66.77%;
     background-image: url(../assets/img/fire.jpg);
