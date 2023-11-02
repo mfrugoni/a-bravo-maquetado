@@ -304,6 +304,11 @@ nav>a:hover {
     background-image: url(../assets/img/fire.jpg);
 }
 
+.hero-adventure {
+    padding-top: 66.40%;
+    background-image: url(../assets/img/adventure.jpg);
+}
+
 #main-home>h2, #main-products>h2 {
     text-align: center;
     width: 100%;
