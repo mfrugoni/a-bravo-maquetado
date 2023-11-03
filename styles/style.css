@@ -329,6 +329,11 @@ nav>a:hover {
     background-image: url(../assets/img/seguro-obligatorio-empleados.jpg);
 }
 
+.hero-motos {
+    padding-top: 66.64%;
+    background-image: url(../assets/img/seguro-motos.jpg);
+}
+
 #main-home>h2, #main-products>h2 {
     text-align: center;
     width: 100%;
