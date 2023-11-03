@@ -310,6 +310,10 @@ nav>a:hover {
     background-image: url(../assets/img/adventure.jpg);
 }
 
+.hero-civil {
+    background-image: url(../assets/img/seguro-responsabilidad-civil.jpg);
+}
+
 #main-home>h2, #main-products>h2 {
     text-align: center;
     width: 100%;
