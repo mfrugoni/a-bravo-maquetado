@@ -268,7 +268,7 @@ nav>a:hover {
 .hero-auto {
     width: 100%;
     padding-top: 45.82%;
-    background-image: url(../assets/img/automotor2.jpg);
+    background-image: url(../assets/img/seguro-automotor.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -278,17 +278,17 @@ nav>a:hover {
 }
 
 .hero-home {
-    background-image: url(../assets/img/hogar-1.jpg);
+    background-image: url(../assets/img/seguro-hogar.jpg);
 }
 
 .hero-life {
     padding-top: 66.66%;
-    background-image: url(../assets/img/vida.jpg);
+    background-image: url(../assets/img/seguro-de-vida.jpg);
 }
 
 .hero-personal {
-    padding-top: 66.64%;
-    background-image: url(../assets/img/accident.jpg);
+    padding-top: 54.68%;
+    background-image: url(../assets/img/seguro-accidentes-personales.jpg);
 }
 
 .hero-integral {
@@ -296,12 +296,42 @@ nav>a:hover {
 }
 
 .hero-art {
-    background-image: url(../assets/img/art.jpg);
+    padding-top: 66.64%;
+    background-image: url(../assets/img/aseguradoras-riesgos-trabajo.jpg);
 }
 
 .hero-fire {
     padding-top: 66.77%;
     background-image: url(../assets/img/fire.jpg);
+}
+
+.hero-adventure {
+    padding-top: 66.40%;
+    background-image: url(../assets/img/seguro-turismo-aventura.jpg);
+}
+
+.hero-civil {
+    background-image: url(../assets/img/seguro-responsabilidad-civil.jpg);
+}
+
+.hero-computer {
+    padding-top: 66.64%;
+    background-image: url(../assets/img/seguro-para-computadoras.jpg);
+}
+
+.hero-tecnic {
+    padding-top: 50.78%;
+    background-image: url(../assets/img/seguro-tecnico.jpg);
+}
+
+.hero-employees {
+    padding-top: 61.56%;
+    background-image: url(../assets/img/seguro-obligatorio-empleados.jpg);
+}
+
+.hero-motos {
+    padding-top: 66.64%;
+    background-image: url(../assets/img/seguro-motos.jpg);
 }
 
 #main-home>h2, #main-products>h2 {
