@@ -268,7 +268,7 @@ nav>a:hover {
 .hero-auto {
     width: 100%;
     padding-top: 45.82%;
-    background-image: url(../assets/img/automotor2.jpg);
+    background-image: url(../assets/img/seguro-automotor.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -278,12 +278,12 @@ nav>a:hover {
 }
 
 .hero-home {
-    background-image: url(../assets/img/hogar-1.jpg);
+    background-image: url(../assets/img/seguro-hogar.jpg);
 }
 
 .hero-life {
     padding-top: 66.66%;
-    background-image: url(../assets/img/vida.jpg);
+    background-image: url(../assets/img/seguro-de-vida.jpg);
 }
 
 .hero-personal {
@@ -307,7 +307,7 @@ nav>a:hover {
 
 .hero-adventure {
     padding-top: 66.40%;
-    background-image: url(../assets/img/adventure.jpg);
+    background-image: url(../assets/img/seguro-turismo-aventura.jpg);
 }
 
 .hero-civil {
