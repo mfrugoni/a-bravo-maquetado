@@ -296,7 +296,8 @@ nav>a:hover {
 }
 
 .hero-art {
-    background-image: url(../assets/img/art.jpg);
+    padding-top: 66.64%;
+    background-image: url(../assets/img/aseguradoras-riesgos-trabajo.jpg);
 }
 
 .hero-fire {
