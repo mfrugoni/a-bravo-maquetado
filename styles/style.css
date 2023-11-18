@@ -248,9 +248,10 @@ nav>a:hover {
 .contact-speech {
     text-align: center;
     line-height: 1.5;
+    font-style: oblique;
+    font-size: 1.1rem;
     color: var(--main-bg-color-dark);
     padding: 0 1rem 1rem 1rem;
-    font-style: oblique;
 }
 
 .contact-cards {
