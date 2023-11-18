@@ -245,6 +245,14 @@ nav>a:hover {
     background-color: white;
 }
 
+.contact-speech {
+    text-align: center;
+    line-height: 1.5;
+    color: var(--main-bg-color-dark);
+    padding: 0 1rem 1rem 1rem;
+    font-style: oblique;
+}
+
 .contact-cards {
     width: 100%;
     display: flex;
