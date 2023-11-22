@@ -368,9 +368,9 @@ nav>a:hover {
 .arrows {
     display: flex;
     justify-content: space-between;
-    padding: 0 2rem;
+    padding: 0.5rem 2rem;
     margin-bottom: 15px;
-    background-color: var(--main-bg-color-ligth);
+    background-color: var(--main-bg-color-dark);
     border-left: 2px solid var(--main-bg-color-dark);
     border-bottom: 2px solid var(--main-bg-color-dark);
     border-right: 2px solid var(--main-bg-color-dark);
@@ -379,8 +379,8 @@ nav>a:hover {
 }
 
 .arrows i {
-    font-size: 2.5rem;
-    color: var(--main-bg-color-dark);
+    font-size: 2rem;
+    color: white;
 }
 
 .detail>p {
