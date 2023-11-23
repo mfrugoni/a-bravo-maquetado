@@ -195,6 +195,40 @@
             </a>
 
         </article>
+        <div class="siniestro">
+
+            <button type="button" onclick="window.modal.showModal();">Denunciar un siniestro</button>
+
+            <dialog id="modal">
+                <h3>Si sos cliente nuestro:</h3>
+                <section class="portales">
+                    <a href="https://self2.fedpat.com.ar/autogestion/ui#/login" title="Portal asegurados Federación Patronal Seguros SA" id="fed-pat" target="_blank" rel="noopener noreferrer">
+                        <img src="./assets/img/logo-federacion-patronal-seguros.png" alt="logotipo Federacion Patronal Seguros SA">
+                        <p>PORTAL ASEGURADOS</p>
+                    </a>
+        
+                    <a href="https://autogestion.segurosrivadavia.com/" title="Acceso asegurados Rivadavia" id="riva" target="_blank" rel="noopener noreferrer">
+                        <img src="./assets/img/logo-seguros-rivadavia.jpg" alt="logotipo Seguros Rivadavia">
+                        <p>ACCESO ASEGURADOS</p>
+                    </a>
+                </section>
+                <h3>Si sos un tercero no asegurado con nosotros:</h3>
+                <section class="portales">
+                    <a href="https://www.fedpat.com.ar/informacion-util/siniestros/reclamos-de-terceros-siniestros-automotores/" title="Portal asegurados Federación Patronal Seguros SA" id="fed-pat" target="_blank" rel="noopener noreferrer">
+                        <img src="./assets/img/logo-federacion-patronal-seguros.png" alt="logotipo Federacion Patronal Seguros SA">
+                        <p>DENUNCIAR</p>
+                    </a>
+        
+                    <a href="https://www.sistemas.segurosrivadavia.com/sistemas/terceros/ingreso_reclamo.php" title="Acceso asegurados Rivadavia" id="riva" target="_blank" rel="noopener noreferrer">
+                        <img src="./assets/img/logo-seguros-rivadavia.jpg" alt="logotipo Seguros Rivadavia">
+                        <p>DENUNCIAR</p>
+                    </a>
+                </section>
+                
+                <button onclick="window.modal.close();">Cerrar</button>
+            </dialog>
+
+        </div>
 
         <section class="portales">
             <a href="https://self2.fedpat.com.ar/autogestion/ui#/login" title="Portal asegurados Federación Patronal Seguros SA" id="fed-pat" target="_blank" rel="noopener noreferrer">
