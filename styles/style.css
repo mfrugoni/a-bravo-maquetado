@@ -131,13 +131,14 @@ nav>a:hover {
 }
 
 .name {
+    padding: 1rem 1rem 0.5rem 1rem;
     text-align: center;
     margin-top: 56px;
-    padding: 1rem;
     color: var(--dark-text-color);
 }
 
 .prod {
+    border-top: 2px solid var(--main-bg-color-dark);
     text-align: center;
     padding-bottom: 1rem;
     color: var(--dark-text-color);
