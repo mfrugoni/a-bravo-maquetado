@@ -353,7 +353,7 @@ nav>a:hover {
     text-align: center;
     width: 100%;
     color: white;
-    background-color: var(--main-bg-color-dark);
+    background-color: var(--main-bg-color);
     padding: 8px 0;
 }
 
@@ -376,7 +376,7 @@ nav>a:hover {
     justify-content: space-between;
     padding: 0.5rem 2rem;
     margin-bottom: 15px;
-    background-color: var(--main-bg-color-dark);
+    background-color: var(--main-bg-color);
     border-left: 2px solid var(--main-bg-color-dark);
     border-bottom: 2px solid var(--main-bg-color-dark);
     border-right: 2px solid var(--main-bg-color-dark);
@@ -387,6 +387,12 @@ nav>a:hover {
 .arrows i {
     font-size: 2rem;
     color: white;
+}
+
+.arrow-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .detail>p {
