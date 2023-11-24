@@ -204,7 +204,11 @@ nav>a:hover {
     padding: 1rem;
 }
 
-#fed-pat, #riva{
+.denuncia {
+    gap: 3rem;
+}
+
+.fed-pat, .riva{
     width: 190px;
     height: 75px;
     display: flex;
@@ -222,15 +226,15 @@ nav>a:hover {
     border-radius: 10px;
 }
 
-#fed-pat {
+.fed-pat, .riva-no-title {
     justify-content: space-around;
 }
 
-#fed-pat>img {
+.fed-pat>img {
     width: 150px;
 }
 
-#riva>img {
+.riva>img {
     width: 100px;
 }
 
@@ -274,7 +278,7 @@ nav>a:hover {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 }
 
-/* Insurances details */
+/* Products details */
 .hero-auto {
     width: 100%;
     padding-top: 45.82%;
@@ -433,6 +437,40 @@ nav>a:hover {
     margin-bottom: 1rem;
 }
 
+/* Denuncia */
+
+.denuncia-title {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-top: 56px;
+    padding: 1rem;
+    color: var(--dark-text-color);
+}
+
+.denuncia-speech {
+    border-top: 2px solid var(--main-bg-color-dark);
+    padding: 1rem 0;
+    margin: 0 1rem;
+    text-align: center;
+    color: var(--dark-text-color);
+    line-height: 1.8rem;
+}
+
+.denuncia-speech>a {
+    color: var(--main-bg-color-dark);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.denuncia-speech>a:hover {
+    color: var(--text-blue);
+    text-decoration: underline;
+}
+
+.detail-denuncia {
+    width: 90%;
+    padding: 0 1rem;
+}
 
 /* About */
 .about-name {
@@ -554,10 +592,16 @@ footer {
     }
 
     #main-products>h2 {
-        font-size: 36px;
+        font-size: 1.8rem;
         padding: 8px 0;
     }
     .detail {
         margin: 0 1.5rem 1.5rem 1.5rem;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    .denuncia-title {
+        margin-top: 0;
     }
 }
