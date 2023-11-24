@@ -439,6 +439,23 @@ nav>a:hover {
 
 /* Denuncia */
 
+#denuncia {
+    margin: 1rem 0;
+    padding: 1rem;
+    font-weight: 800;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color:var(--text-blue);
+    outline: 2px solid var(--text-blue);
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+}
+
+#denuncia:hover {
+    text-decoration: underline;
+}
+
 .denuncia-title {
     font-size: 1.8rem;
     text-align: center;
