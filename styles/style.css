@@ -19,6 +19,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Quicksand', 'Arial Narrow', Arial, sans-serif;
+    scroll-behavior: smooth
 }
 
 /* Header */
@@ -130,13 +131,14 @@ nav>a:hover {
 }
 
 .name {
+    padding: 1rem 1rem 0.5rem 1rem;
     text-align: center;
     margin-top: 56px;
-    padding: 1rem;
     color: var(--dark-text-color);
 }
 
 .prod {
+    border-top: 2px solid var(--main-bg-color-dark);
     text-align: center;
     padding-bottom: 1rem;
     color: var(--dark-text-color);
@@ -203,7 +205,7 @@ nav>a:hover {
     padding: 1rem;
 }
 
-#fed-pat, #riva{
+.fed-pat, .riva{
     width: 190px;
     height: 75px;
     display: flex;
@@ -221,15 +223,15 @@ nav>a:hover {
     border-radius: 10px;
 }
 
-#fed-pat {
+.fed-pat, .riva-no-title {
     justify-content: space-around;
 }
 
-#fed-pat>img {
+.fed-pat>img {
     width: 150px;
 }
 
-#riva>img {
+.riva>img {
     width: 100px;
 }
 
@@ -273,7 +275,7 @@ nav>a:hover {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 }
 
-/* Insurances details */
+/* Products details */
 .hero-auto {
     width: 100%;
     padding-top: 45.82%;
@@ -347,7 +349,7 @@ nav>a:hover {
     text-align: center;
     width: 100%;
     color: white;
-    background-color: var(--main-bg-color-dark);
+    background-color: var(--main-bg-color);
     padding: 8px 0;
 }
 
@@ -368,9 +370,9 @@ nav>a:hover {
 .arrows {
     display: flex;
     justify-content: space-between;
-    padding: 0 2rem;
+    padding: 0.5rem 2rem;
     margin-bottom: 15px;
-    background-color: var(--main-bg-color-ligth);
+    background-color: var(--main-bg-color);
     border-left: 2px solid var(--main-bg-color-dark);
     border-bottom: 2px solid var(--main-bg-color-dark);
     border-right: 2px solid var(--main-bg-color-dark);
@@ -379,8 +381,14 @@ nav>a:hover {
 }
 
 .arrows i {
-    font-size: 2.5rem;
-    color: var(--main-bg-color-dark);
+    font-size: 2rem;
+    color: white;
+}
+
+.arrow-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .detail>p {
@@ -430,6 +438,62 @@ nav>a:hover {
 .back {
     align-self: center;
     margin-bottom: 1rem;
+}
+
+/* Denuncia */
+
+#denuncia {
+    margin: 1rem 0;
+    padding: 1rem;
+    font-weight: 800;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color:white;
+    outline: 2px solid var(--main-bg-color-ligth);
+    background-color: var(--main-bg-color);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+}
+
+#denuncia:hover {
+    background-color: var(--main-bg-color-dark);
+}
+
+.denuncia-title {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-top: 56px;
+    padding: 1rem;
+    color: var(--dark-text-color);
+}
+
+.denuncia-speech {
+    border-top: 2px solid var(--main-bg-color-dark);
+    padding: 1rem 0;
+    margin: 0 1rem;
+    text-align: center;
+    color: var(--dark-text-color);
+    line-height: 1.8rem;
+}
+
+.denuncia-speech>a {
+    color: var(--main-bg-color-dark);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.denuncia-speech>a:hover {
+    color: var(--text-blue);
+    text-decoration: underline;
+}
+
+.detail-denuncia {
+    width: 90%;
+    padding: 0 1rem;
+}
+
+.denuncia {
+    gap: 3rem;
 }
 
 
@@ -501,6 +565,25 @@ footer {
 .social>a:hover {
     color: var(--dark-text-color);
 }
+
+.share {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8px;
+    border-right: 2px solid var(--main-bg-color-ligth);
+    border-left: 2px solid var(--main-bg-color-ligth);
+}
+
+.share>a {
+    text-decoration: none;
+    color: white;
+}
+
+.share>a:hover {
+    color: var(--dark-text-color);
+}    
 /* #copy {
     display: flex;
     flex-flow: row wrap;
@@ -553,10 +636,16 @@ footer {
     }
 
     #main-products>h2 {
-        font-size: 36px;
+        font-size: 1.8rem;
         padding: 8px 0;
     }
     .detail {
         margin: 0 1.5rem 1.5rem 1.5rem;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    .denuncia-title {
+        margin-top: 0;
     }
 }
