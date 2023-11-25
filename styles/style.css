@@ -205,10 +205,6 @@ nav>a:hover {
     padding: 1rem;
 }
 
-.denuncia {
-    gap: 3rem;
-}
-
 .fed-pat, .riva{
     width: 190px;
     height: 75px;
@@ -452,15 +448,15 @@ nav>a:hover {
     font-weight: 800;
     font-size: 1.2rem;
     text-decoration: none;
-    color:var(--text-blue);
-    outline: 2px solid var(--text-blue);
-    background-color: white;
+    color:white;
+    outline: 2px solid var(--main-bg-color-ligth);
+    background-color: var(--main-bg-color);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 10px;
 }
 
 #denuncia:hover {
-    text-decoration: underline;
+    background-color: var(--main-bg-color-dark);
 }
 
 .denuncia-title {
@@ -495,6 +491,11 @@ nav>a:hover {
     width: 90%;
     padding: 0 1rem;
 }
+
+.denuncia {
+    gap: 3rem;
+}
+
 
 /* About */
 .about-name {
@@ -564,6 +565,25 @@ footer {
 .social>a:hover {
     color: var(--dark-text-color);
 }
+
+.share {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8px;
+    border-right: 2px solid var(--main-bg-color-ligth);
+    border-left: 2px solid var(--main-bg-color-ligth);
+}
+
+.share>a {
+    text-decoration: none;
+    color: white;
+}
+
+.share>a:hover {
+    color: var(--dark-text-color);
+}    
 /* #copy {
     display: flex;
     flex-flow: row wrap;
