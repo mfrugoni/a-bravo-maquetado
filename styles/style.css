@@ -293,8 +293,7 @@ nav>a:hover {
 }
 
 .hero-life {
-    padding-top: 66.66%;
-    background-image: url(../assets/img/seguro-de-vida.webp);
+    background-image: url(../assets/img/seguro-de-vida-2.jpg);
 }
 
 .hero-personal {
@@ -307,8 +306,7 @@ nav>a:hover {
 }
 
 .hero-art {
-    padding-top: 66.64%;
-    background-image: url(../assets/img/aseguradoras-riesgos-trabajo.jpg);
+    background-image: url(../assets/img/aseguradoras-riesgos-trabajo.webp);
 }
 
 .hero-fire {
@@ -316,8 +314,7 @@ nav>a:hover {
 }
 
 .hero-adventure {
-    padding-top: 66.64%;
-    background-image: url(../assets/img/seguro-turismo-aventura.webp);
+    background-image: url(../assets/img/seguro-turismo-aventura-cut.webp);
 }
 
 .hero-civil {
@@ -335,13 +332,11 @@ nav>a:hover {
 }
 
 .hero-employees {
-    padding-top: 61.56%;
-    background-image: url(../assets/img/seguro-obligatorio-empleados.jpg);
+    background-image: url(../assets/img/seguro-obligatorio-empleados.webp);
 }
 
 .hero-motos {
-    padding-top: 66.64%;
-    background-image: url(../assets/img/seguro-motos.jpg);
+    background-image: url(../assets/img/seguro-motos.webp);
 }
 
 #main-home>h2, #main-products>h2 {
