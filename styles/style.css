@@ -294,7 +294,7 @@ nav>a:hover {
 
 .hero-life {
     padding-top: 66.66%;
-    background-image: url(../assets/img/seguro-de-vida.jpg);
+    background-image: url(../assets/img/seguro-de-vida.webp);
 }
 
 .hero-personal {
@@ -312,13 +312,12 @@ nav>a:hover {
 }
 
 .hero-fire {
-    padding-top: 66.77%;
-    background-image: url(../assets/img/seguro-incendio.jpg);
+    background-image: url(../assets/img/seguro-incendio.webp);
 }
 
 .hero-adventure {
-    padding-top: 66.40%;
-    background-image: url(../assets/img/seguro-turismo-aventura.jpg);
+    padding-top: 66.64%;
+    background-image: url(../assets/img/seguro-turismo-aventura.webp);
 }
 
 .hero-civil {
