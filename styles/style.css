@@ -279,7 +279,7 @@ nav>a:hover {
 .hero-auto {
     width: 100%;
     padding-top: 45.82%;
-    background-image: url(../assets/img/seguro-automotor.jpg);
+    background-image: url(../assets/img/seguro-automotor.webp);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -289,26 +289,24 @@ nav>a:hover {
 }
 
 .hero-home {
-    background-image: url(../assets/img/seguro-hogar.jpg);
+    background-image: url(../assets/img/seguro-hogar.webp);
 }
 
 .hero-life {
-    padding-top: 66.66%;
-    background-image: url(../assets/img/seguro-de-vida.webp);
+    background-image: url(../assets/img/seguro-de-vida-2.webp);
 }
 
 .hero-personal {
     padding-top: 54.68%;
-    background-image: url(../assets/img/seguro-accidentes-personales.jpg);
+    background-image: url(../assets/img/seguro-accidentes-personales.webp);
 }
 
 .hero-integral {
-    background-image: url(../assets/img/seguro-integral-comercio.jpg);
+    background-image: url(../assets/img/seguro-integral-comercio.webp);
 }
 
 .hero-art {
-    padding-top: 66.64%;
-    background-image: url(../assets/img/aseguradoras-riesgos-trabajo.jpg);
+    background-image: url(../assets/img/aseguradoras-riesgos-trabajo.webp);
 }
 
 .hero-fire {
@@ -316,17 +314,16 @@ nav>a:hover {
 }
 
 .hero-adventure {
-    padding-top: 66.64%;
-    background-image: url(../assets/img/seguro-turismo-aventura.webp);
+    background-image: url(../assets/img/seguro-turismo-aventura-cut.webp);
 }
 
 .hero-civil {
-    background-image: url(../assets/img/seguro-responsabilidad-civil.jpg);
+    background-image: url(../assets/img/seguro-responsabilidad-civil.webp);
 }
 
 .hero-computer {
     padding-top: 66.64%;
-    background-image: url(../assets/img/seguro-para-computadoras.jpg);
+    background-image: url(../assets/img/seguro-para-computadoras.webp);
 }
 
 .hero-tecnic {
@@ -335,13 +332,11 @@ nav>a:hover {
 }
 
 .hero-employees {
-    padding-top: 61.56%;
-    background-image: url(../assets/img/seguro-obligatorio-empleados.jpg);
+    background-image: url(../assets/img/seguro-obligatorio-empleados.webp);
 }
 
 .hero-motos {
-    padding-top: 66.64%;
-    background-image: url(../assets/img/seguro-motos.jpg);
+    background-image: url(../assets/img/seguro-motos.webp);
 }
 
 #main-home>h2, #main-products>h2 {
