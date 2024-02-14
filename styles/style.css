@@ -328,7 +328,7 @@ nav>a:hover {
 
 .hero-tecnic {
     padding-top: 50.78%;
-    background-image: url(../assets/img/seguro-tecnico.jpg);
+    background-image: url(../assets/img/seguro-tecnico.webp);
 }
 
 .hero-employees {
@@ -522,6 +522,7 @@ nav>a:hover {
 footer {
     display: flex;
     flex-flow: column;
+    align-items: center;
     width: 100%;
     min-height: 10vh;
     padding: 1rem;
@@ -530,12 +531,17 @@ footer {
     color: var(--main-bg-color-ligth);
 }
 
+.nap {
+    text-align: center;
+}
+
 .angie-foot {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
     gap: 1rem;
+    margin: 1rem 0;
 
 }
 
@@ -587,6 +593,11 @@ footer {
 } */
 
 #brands {
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+.brands {
     font-size: 0.7rem;
     text-align: center;
 }
