@@ -59,8 +59,9 @@ nav>a:hover {
 }
 
 .current {
-    color: var(--dark-text-color);
-    font-size: larger;
+    display: none;
+    /* color: var(--dark-text-color);
+    font-size: larger; */
 }
 
 .title-box {
@@ -505,6 +506,7 @@ nav>a:hover {
     justify-content: space-evenly;
     text-align: center;
     border-top: 3px dotted var(--main-bg-color-dark);
+    padding-top: 2rem;
 }
 
 /* FAQ */
