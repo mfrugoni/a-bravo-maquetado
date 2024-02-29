@@ -138,27 +138,40 @@ nav>a:hover {
     background-color: var(--main-bg-color-dark);
 }
 
+.title-h1 {
+    font-size: 1.5rem;
+    background-color: var(--main-bg-color);
+    padding: 0.5rem 0;
+}
+
 .name {
-    font-size: 2rem;
-    font-weight: 700;
     padding: 1rem 1rem 0.5rem 1rem;
     text-align: center;
     margin-top: 56px;
     color: var(--dark-text-color);
 }
 
+.name-p {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
 .name-index {
     margin-top: 0;
+    padding: 0.5rem 1rem;
     font-size: 2rem;
 }
 
 .prod {
-    font-weight: 700;
     font-size: 1.1rem;
     border-top: 2px solid var(--main-bg-color-dark);
     text-align: center;
     padding-bottom: 1rem;
     color: var(--dark-text-color);
+}
+
+.prod-p {
+    font-weight: 700;
 }
 
 #products {
@@ -358,15 +371,6 @@ nav>a:hover {
 }
 
 #main-products>h2 {
-    text-align: center;
-    width: 100%;
-    color: white;
-    background-color: var(--main-bg-color);
-    padding: 8px 0;
-}
-
-#main-products>h1 {
-    font-size: 1.5rem;
     text-align: center;
     width: 100%;
     color: white;
