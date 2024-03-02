@@ -52,6 +52,7 @@ nav>a {
     text-align: center;
     text-decoration: none;
     color: white;
+    transition: color 0.3s;
 }
 
 nav>a:hover {
@@ -92,11 +93,11 @@ nav>a:hover {
     border-top: 0;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    transition: box-shadow 0.3s;
 }
 
 .quote:hover {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
-    outline: 3px solid var(--main-bg-color);
 }
 
 .quote>a {
@@ -138,27 +139,40 @@ nav>a:hover {
     background-color: var(--main-bg-color-dark);
 }
 
+.title-h1 {
+    font-size: 1.5rem;
+    background-color: var(--main-bg-color);
+    padding: 0.5rem 0;
+}
+
 .name {
-    font-size: 2rem;
-    font-weight: 700;
     padding: 1rem 1rem 0.5rem 1rem;
     text-align: center;
     margin-top: 56px;
     color: var(--dark-text-color);
 }
 
+.name-p {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
 .name-index {
     margin-top: 0;
+    padding: 0.5rem 1rem;
     font-size: 2rem;
 }
 
 .prod {
-    font-weight: 700;
     font-size: 1.1rem;
     border-top: 2px solid var(--main-bg-color-dark);
     text-align: center;
     padding-bottom: 1rem;
     color: var(--dark-text-color);
+}
+
+.prod-p {
+    font-weight: 700;
 }
 
 #products {
@@ -180,7 +194,12 @@ nav>a:hover {
     background-color: var(--main-bg-color-ligth);
     outline: 2px solid var(--main-bg-color);
     padding: 0.5rem;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 5px 10px;
+    transition: box-shadow 0.3s;
+}
+
+.card:hover {
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px;
 }
 
 .card h3, .card h5, .card p {
@@ -236,8 +255,13 @@ nav>a:hover {
     color:var(--text-blue);
     outline: 2px solid var(--text-blue);
     background-color: white;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 5px 10px;
     border-radius: 10px;
+    transition: box-shadow 0.3s;
+}
+
+.fed-pat:hover, .riva:hover{
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 20px;
 }
 
 .fed-pat, .riva-no-title {
@@ -286,11 +310,6 @@ nav>a:hover {
 
 .contact-cards a {
     text-decoration: none;
-}
-
-.contact-cards .card:hover {
-    outline: 3px solid var(--main-bg-color);
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 }
 
 /* Products details */
@@ -365,15 +384,6 @@ nav>a:hover {
     padding: 8px 0;
 }
 
-#main-products>h1 {
-    font-size: 1.5rem;
-    text-align: center;
-    width: 100%;
-    color: white;
-    background-color: var(--main-bg-color);
-    padding: 8px 0;
-}
-
 .detail {
     min-height: 50vh;
     display: flex;
@@ -439,11 +449,12 @@ nav>a:hover {
     outline: 2px solid var(--main-bg-color);
     border-top: 0;
     border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 5px 10px;
+    transition: box-shadow 0.3s;
 }
 
 .now:hover {
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
-    outline: 3px solid var(--main-bg-color);
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px;
 }
 
 .now>a {
@@ -459,6 +470,7 @@ nav>a:hover {
 .back {
     align-self: center;
     margin-bottom: 1rem;
+    border-radius: 6px;
 }
 
 /* Denuncia */
@@ -472,12 +484,14 @@ nav>a:hover {
     color:white;
     outline: 2px solid var(--main-bg-color-ligth);
     background-color: var(--main-bg-color);
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 5px 10px;
     border-radius: 10px;
+    transition: all 0.2s;
 }
 
 #denuncia:hover {
     background-color: var(--main-bg-color-dark);
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 12px;
 }
 
 .denuncia-title {
@@ -501,6 +515,7 @@ nav>a:hover {
     color: var(--main-bg-color-dark);
     text-decoration: none;
     font-weight: bold;
+    transition: all 0.3s;
 }
 
 .denuncia-speech>a:hover {
@@ -588,6 +603,7 @@ footer {
 .social>a {
     text-decoration: none;
     color: white;
+    transition: color 0.3s;
 }
 
 .social>a:hover {
@@ -595,10 +611,11 @@ footer {
 }
 
 .share {
-    width: 200px;
+    width: 250px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    column-gap: 0.8rem;
     padding: 0 8px;
     border-right: 2px solid var(--main-bg-color-ligth);
     border-left: 2px solid var(--main-bg-color-ligth);
@@ -607,6 +624,7 @@ footer {
 .share>a {
     text-decoration: none;
     color: white;
+    transition: color 0.3s;
 }
 
 .share>a:hover {
@@ -664,18 +682,15 @@ footer {
         margin-top: 0px;
     }
 
-    .index-title {
-        margin-top: 0px;
-    }
-
     #hero {
         height: 85vh;
     }
 
-    #main-products>h2 {
-        font-size: 1.8rem;
+    .title>h2, .title-h1 {
+        font-size: 2rem;
         padding: 8px 0;
     }
+
     .detail {
         margin: 0 1.5rem 1.5rem 1.5rem;
     }
@@ -684,5 +699,9 @@ footer {
 @media only screen and (min-width: 1200px){
     .denuncia-title {
         margin-top: 0;
+    }
+
+    .index-title {
+        margin-top: 0px;
     }
 }
