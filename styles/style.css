@@ -608,6 +608,11 @@ nav>a:hover {
     padding-bottom: 0.5rem;
 }
 
+#answers li {
+    list-style-type: none;
+    font-weight: 700;
+}
+
 /* Footer */
 footer {
     display: flex;
