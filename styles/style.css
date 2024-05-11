@@ -584,7 +584,7 @@ nav>a:hover {
     color: var(--main-bg-color-dark);
 }
 
-#questions>a {
+#questions>a, #answers a {
     color: var(--dark-text-color);
 }
 
@@ -611,6 +611,11 @@ nav>a:hover {
 #answers li {
     list-style-type: none;
     font-weight: 700;
+    padding-bottom: 0.5rem;
+}
+
+#answer-4 li {
+    font-weight: normal;
 }
 
 /* Footer */
