@@ -599,24 +599,40 @@ nav>a:hover {
     color: var(--dark-text-color);
 }
 
-#answers dt {
-    font-weight: 500;
-    padding-bottom: 0.5rem;
-}
-
-#answers dd {
-    padding-bottom: 0.5rem;
-}
-
 #answers li {
     list-style-type: none;
     font-weight: 700;
     padding-bottom: 0.5rem;
 }
 
+#answers dt {
+    font-weight: 600;
+    padding: 0.5rem 0;
+}
+
+#answers dd {
+    font-weight: 500;
+    padding-bottom: 0.5rem;
+}
+
 #answer-4 li {
     font-weight: normal;
+    padding: 0.5rem 0;
 }
+
+
+
+  #qa {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  #answer-test {
+    width: 50%;
+  }
+  
+
 
 /* Footer */
 footer {

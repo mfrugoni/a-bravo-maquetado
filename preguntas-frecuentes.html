@@ -12,6 +12,7 @@
     <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/style.css">
     <title>Respuestas a tus dudas en seguros: Angela Bravo.</title>
     <meta name="description"
@@ -71,13 +72,33 @@
 
         <section id="questions">
             <h2>Preguntas:</h2>
-            <a href="#answer-1">1. Qué es un siniestro?</a>
-            <a href="#answer-2">2. Cuánto tiempo tengo para denunciar un siniestro?</a>
-            <a href="#answer-3">3. Cuál es el seguro de auto más barato de Argentina?</a>
-            <a href="#answer-4">4. Qué hacer en caso de accidente automotor?</a>
-            <a href="#answer-5">5. Qué hago si me entran a robar en casa?</a>
-            <a href="#answer-6">6. Qué cubre una ART?</a>
-            <a href="#answer-7">7. Qué no cubre la ART?</a>
+            <div id="qa">
+                <a href="#question-1">1. Qué es un siniestro?</a>
+                <article id="answer-test">
+                    <p>
+                        <b>1. </b><strong>Un siniestro</strong> es un acontecimiento inesperado, repentino e involuntario que puede causar <strong>daños a las personas o a los bienes</strong> y que está cubierto por un contrato de seguro.
+                    </p>
+                    <p>
+                        Para que un evento sea considerado un siniestro, deben cumplirse las <strong>siguientes condiciones:</strong>
+                    </p>
+                    <dl>
+                        <dt>Debe estar amparado por la póliza de seguro:</dt>
+                        <dd>El evento debe ser uno de los riesgos que están cubiertos por la póliza de seguro.</dd>
+                        <dt>Debe ser inesperado:</dt>
+                        <dd>El evento no debe haber sido previsible o causado intencionalmente por el asegurado.</dd>
+                        <dt>Debe ser repentino:</dt>
+                        <dd>El evento debe haber ocurrido de manera súbita e inesperada.</dd>
+                        <dt>Debe causar daños:</dt>
+                        <dd>El evento debe haber causado daños a las personas o a los bienes.</dd>
+                    </dl>
+                </article>
+            </div>
+            <a href="#question-2">2. Cuánto tiempo tengo para denunciar un siniestro?</a>
+            <a href="#question-3">3. Cuál es el seguro de auto más barato de Argentina?</a>
+            <a href="#question-4">4. Qué hacer en caso de accidente automotor?</a>
+            <a href="#question-5">5. Qué hago si me entran a robar en casa?</a>
+            <a href="#question-6">6. Qué cubre una ART?</a>
+            <a href="#question-7">7. Qué no cubre la ART?</a>
         </section>
 
         <section id="answers">
@@ -85,7 +106,7 @@
 
             <article id="answer-1">
                 <p>
-                    <b>1. </b><strong>Un siniestro</strong> es un acontecimiento inesperado, repentino e involuntario que puede causar daños a las personas o a los bienes y que está cubierto por un contrato de seguro.
+                    <b>1. </b><strong>Un siniestro</strong> es un acontecimiento inesperado, repentino e involuntario que puede causar <strong>daños a las personas o a los bienes</strong> y que está cubierto por un contrato de seguro.
                 </p>
                 <p>
                     Para que un evento sea considerado un siniestro, deben cumplirse las <strong>siguientes condiciones:</strong>
@@ -105,46 +126,49 @@
             <article id="answer-2">
                 <p><b>2. </b><strong>Para denunciar un siniestro,</strong> el tiempo que tengo varía según el tipo de siniestro:</p>
                 <ul>
-                    <li>Seguro automotor:</li>
-                    <dl>
-                        <dt>Accidente de tránsito:</dt>
-                        <dd>Tenés 72 horas (3 días) desde el momento del accidente para denunciar el siniestro a tu compañía de seguros.
-                        </dd>
-                        <dt>Robo o hurto del auto:</dt>
-                        <dd>Tenés 3 días desde que te enteraste del robo o hurto para denunciar el siniestro a tu compañía de seguros.
-                        </dd>
-                    </dl>
-                    <li>Seguro de hogar:</li>
-                    <dl>
-                        <dt>Robo o hurto:</dt>
-                        <dd>Tenés 3 días desde que te enteraste del robo o hurto para denunciar el siniestro a tu compañía de seguros.</dd>
-                        <dt>Incendio, inundación o daño por agua:</dt>
-                        <dd>Tenés 5 días desde que ocurrió el siniestro para denunciarlo a tu compañía de seguros.</dd>
-                        <dt>Otros daños:</dt>
-                        <dd>Tenés 15 días desde que ocurrió el siniestro para denunciarlo a tu compañía de seguros.</dd>
-                    </dl>
+                    <li>Seguro automotor:
+                        <dl>
+                            <dt>Accidente de tránsito:</dt>
+                            <dd>Tenés 72 horas (3 días) desde el momento del accidente para denunciar el siniestro a tu compañía de
+                                seguros.
+                            </dd>
+                            <dt>Robo o hurto del auto:</dt>
+                            <dd>Tenés 3 días desde que te enteraste del robo o hurto para denunciar el siniestro a tu compañía de
+                                seguros.
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>Seguro de hogar:
+                        <dl>
+                            <dt>Robo o hurto:</dt>
+                            <dd>Tenés 3 días desde que te enteraste del robo o hurto para denunciar el siniestro a tu compañía de
+                                seguros.</dd>
+                            <dt>Incendio, inundación o daño por agua:</dt>
+                            <dd>Tenés 5 días desde que ocurrió el siniestro para denunciarlo a tu compañía de seguros.</dd>
+                            <dt>Otros daños:</dt>
+                            <dd>Tenés 15 días desde que ocurrió el siniestro para denunciarlo a tu compañía de seguros.</dd>
+                        </dl>
+                    </li>
                 </ul>
             </article>
             
             <article id="answer-3">
-                <p><b>3. </b><strong>El seguro de auto más barato</strong> de Argentina suele ser el de responsabilidad civil, también conocido como seguro contra terceros.</p>
+                <p><b>3. </b><strong>El seguro de auto más barato</strong> de Argentina suele ser el de <strong>responsabilidad civil</strong>, también conocido como <strong>seguro contra terceros</strong>.</p>
                 <p>Este tipo de póliza solo cubre los daños que puedas ocasionar a terceros, tanto a personas como a sus bienes, en caso de un accidente.</p>
-                <p>No cubre los daños a tu propio auto.</p>
+                <strong>No cubre los daños a tu propio auto.</strong>
             </article>
 
             <article id="answer-4">
                 <p><b>4. </b><strong>En caso de un accidente automotor</strong>, es importante seguir los siguientes pasos:</p>
                 <ul>
-                    <li>Mantené la calma y evaluá la situación. Cuidá tu seguridad y la de los demás involucrados, moviendo los vehículos fuera de la vía si es posible.</li>
-                    <li>Llamá a los servicios de emergencia si hay heridos o daños graves. Reportá el accidente a la policía si es necesario.</li>
-                    <li>Intercambiá información con los conductores involucrados, incluyendo los nombres, números de teléfono, direcciones y números de seguro de vehículo.</li>
-                    <li>Si es seguro hacerlo, tomá fotografías de los daños y de la escena del accidente.</li>
-                    <li>Si hay testigos, solicitá sus nombres y números de contacto.</li>
-                    <li>Notificá a tu compañía de seguros sobre el accidente lo antes posible.</li>
-                    <li>Buscá atención médica si tienes lesiones, aunque sean leves. También es recomendable hacer un registro de cualquier síntoma o molestia que puedas tener después del accidente.</li>
-                    <li>No admitas responsabilidad en el accidente antes de hablar con tu compañía de seguros o con un abogado.</li>
-                    <li>Mantené un registro detallado de todos los gastos y pérdidas relacionadas con el accidente, como facturas médicas y daños a la propiedad.</li>
-                    <li>Si tenés dudas sobre qué hacer a continuación, busca asesoramiento legal para proteger tus derechos y garantizar una compensación justa.</li>
+                    <li><strong>Mantené la calma</strong> y evaluá la situación.</li>
+                    <li><strong>Llamá a los servicios de emergencia</strong> si hay heridos o daños graves. Reportá el accidente a la policía si es necesario.</li>
+                    <li><strong>Intercambiá información</strong> con los conductores involucrados, incluyendo los nombres, números de teléfono, direcciones y números de seguro de vehículo.</li>
+                    <li><strong>De ser posible, tomá fotografías</strong> de los daños y de la escena del accidente.</li>
+                    <li><strong>Si hay testigos</strong>, solicitá sus nombres y números de contacto.</li>
+                    <li><strong>Notificá a tu compañía de seguros</strong> sobre el accidente lo antes posible. Tenés tres días para hacerlo</li>
+                    <li><strong>Buscá atención médica</strong> si tienes lesiones, aunque sean leves. También es recomendable hacer un registro de cualquier síntoma o molestia que puedas tener después del accidente.</li>
+                    <li><strong>No admitas responsabilidad</strong> en el accidente antes de hablar con tu compañía de seguros o con un abogado.</li>
                 </ul>
 
             </article>
@@ -189,12 +213,12 @@
             </article>
 
             <article id="answer-7">
-                <p><b>7. </b><strong>La ART no cubre</strong>, según lo dicta la Ley 24.557 de riesgos del trabajo, los accidentes de trabajo y las enfermedades profesionales causados por dolo del trabajador o por fuerza mayor no relacionada a su trabajo.</p>
+                <p><b>7. </b><strong>La ART no cubre</strong>, según lo dicta la <strong>Ley 24.557</strong> de riesgos del trabajo, los accidentes de trabajo y las enfermedades profesionales causados <strong>por dolo del trabajador</strong> o por fuerza mayor <strong>no relacionada a su trabajo</strong>.</p>
                 <p>Entendiendo por "dolo" a un engaño, fraude o simulación o a la voluntad deliberada de cometer un delito a sabiendas de su ilicitud.</p>
                 <p>Por ejemplo, si el trabajador se lastima a propósito para obtener algún beneficio económico o se daña fuera de su lugar de trabajo, la ART no lo cubre.</p>
                 <p>La ART sólo cubre accidentes de trabajo, accidentes in itinere (los que ocurren en el viaje de ida o vuelta del trabajo) o enfermedades profesionales.</p>
                 <p>Tampoco cubre las incapacidades que el trabajador tuviera desde antes del inicio de la relación laboral y acreditadas en el examen preocupacional efectuado según las pautas establecidas por la autoridad de aplicación.</p>
-                <a href="https://www.argentina.gob.ar/normativa/nacional/27971/actualizacion" target="_blank" rel="noopener noreferrer" title="Información oficial">Info oficial...</a>
+                <a href="https://www.argentina.gob.ar/normativa/nacional/27971/actualizacion" target="_blank" rel="noopener noreferrer" title="Información oficial sobre ley de riesgos del trabajo">Info oficial...</a>
             </article>
         </section>
 
@@ -242,13 +266,14 @@
             respectivos dueños.
         </p>
         <p class="brands">
-            La cobertura final de cada póliza depende las condiciones del seguro contratado por cada
+            La cobertura final de cada póliza depende de las condiciones del seguro contratado por cada
             cliente.
             La cobertura NO DEPENDE de lo expresado en este sitio web, ni de lo que el cliente interprete de lo que esté
             incluido en este sitio web.
         </p>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 
 </html>
