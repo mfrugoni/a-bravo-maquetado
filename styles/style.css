@@ -511,14 +511,18 @@ nav>a:hover {
     line-height: 1.8rem;
 }
 
-.denuncia-speech>a {
+.denuncia-speech>a, .answer a {
     color: var(--main-bg-color-dark);
     text-decoration: none;
     font-weight: bold;
     transition: all 0.3s;
 }
 
-.denuncia-speech>a:hover {
+.answer a {
+    color: var(--dark-text-color);
+}
+
+.denuncia-speech>a:hover, .answer a:hover {
     color: var(--text-blue);
     text-decoration: underline;
 }
@@ -566,9 +570,9 @@ nav>a:hover {
     color: var(--main-bg-color-dark);
 }
 
-#questions, #answers {
+#questions {
     width: 100%;
-    padding: 1rem;
+    padding: 0.5rem;
     gap: 1rem;
     display: flex;
     flex-flow: column;
@@ -576,41 +580,26 @@ nav>a:hover {
     align-items: flex-start;
 }
 
-#answers {
-    gap: 0;
-}
-
-#questions>h2, #answers>h2 {
+#questions>h2 {
     color: var(--main-bg-color-dark);
 }
 
-#questions>a, #answers a {
+#questions>a {
     color: var(--dark-text-color);
 }
 
-#answers>article {
-    width: 100%;
-    padding: 1rem 0;
-    gap: 1rem;
-    display: flex;
-    flex-flow: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    color: var(--dark-text-color);
-}
-
-#answers li {
+.answer li {
     list-style-type: none;
     font-weight: 700;
     padding-bottom: 0.5rem;
 }
 
-#answers dt {
+.answer dt {
     font-weight: 600;
     padding: 0.5rem 0;
 }
 
-#answers dd {
+.answer dd {
     font-weight: 500;
     padding-bottom: 0.5rem;
 }
@@ -620,16 +609,40 @@ nav>a:hover {
     padding: 0.5rem 0;
 }
 
-
-
-  #qa {
+  .qa {
     width: 100%;
     display: flex;
     flex-flow: row wrap;
+    justify-content: center;
+    color: white;
   }
 
-  #answer-test {
-    width: 50%;
+  .qa>h3 {
+    width: 100%;
+    max-width: 500px;
+    padding: 1.5rem;
+    border-radius: 10px 10px 0 0;
+    background-color: var(--main-bg-color);
+  }
+
+  .answer {
+    max-width: 500px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1.5rem;
+    border-radius: 0 0 10px 10px;
+    background-color: var(--main-bg-color-dark);
+  }
+
+  .qa-img {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
   }
   
 
@@ -743,6 +756,7 @@ footer {
     #main-contact .title {
         font-size: 1.5em;
     }
+
 }
 
 @media only screen and (min-width: 950px){
@@ -762,6 +776,19 @@ footer {
     .detail {
         margin: 0 1.5rem 1.5rem 1.5rem;
     }
+}
+
+@media only screen and (min-width: 1015px){
+
+    .qa>h3 {
+        text-align: end;
+        border-radius: 10px 0 0 10px ;
+      }
+    
+      .answer {
+        border-radius: 0 10px 10px 0;
+
+      }
 }
 
 @media only screen and (min-width: 1200px){
