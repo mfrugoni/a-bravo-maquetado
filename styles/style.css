@@ -558,12 +558,11 @@ nav>a:hover {
 .ask {
     width: 100%;
     padding: 2rem 1rem;
+    text-align: center;
 }
 
-.ask-speech {
-    border: none;
-    text-align: left;
-    margin: 0;
+.ask-title {
+    margin-top: 0;
 }
 
 .ask>h3 {
