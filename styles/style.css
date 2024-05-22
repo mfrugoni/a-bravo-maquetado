@@ -823,8 +823,8 @@ footer {
   }
   
   #button>a {
-    width: 240px;
-    height: 60px;
+    width: 260px;
+    height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -834,7 +834,7 @@ footer {
     text-align: center;
     color: white;
     background-color: var(--main-bg-color-dark);
-    padding: 5px;
+    padding: 0.5rem;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 5px;
     transition: background-color 0.3s;
