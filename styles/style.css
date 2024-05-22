@@ -515,19 +515,19 @@ nav>a:hover {
 }
 
 .denuncia-speech>a,
-.answer a {
+.answer a, .index-answer a {
     color: var(--main-bg-color-dark);
     text-decoration: none;
     font-weight: bold;
     transition: all 0.3s;
 }
 
-.answer a {
+.answer a, .index-answer a {
     color: var(--dark-text-color);
 }
 
 .denuncia-speech>a:hover,
-.answer a:hover {
+.answer a:hover, .index-answer a:hover {
     color: var(--text-blue);
     text-decoration: underline;
 }
@@ -573,7 +573,7 @@ nav>a:hover {
     color: var(--main-bg-color-dark);
 }
 
-#questions {
+.questions {
     width: 100%;
     padding: 0.5rem;
     gap: 1rem;
@@ -583,26 +583,22 @@ nav>a:hover {
     align-items: flex-start;
 }
 
-#questions>h2 {
-    color: var(--main-bg-color-dark);
-}
-
-#questions>a {
+/* #questions>a {
     color: var(--dark-text-color);
-}
+} */
 
-.answer li {
+.answer li, .index-answer li {
     list-style-type: none;
     font-weight: 700;
     padding-bottom: 0.5rem;
 }
 
-.answer dt {
+.answer dt, .index-answer dt {
     font-weight: 600;
     padding: 0.5rem 0;
 }
 
-.answer dd {
+.answer dd, .index-answer dd {
     font-weight: 500;
     padding-bottom: 0.5rem;
 }
@@ -647,6 +643,73 @@ nav>a:hover {
     justify-content: center;
     align-items: center;
 }
+
+.index-h2 {
+    width: 100%;
+    text-align: center;
+    color: var(--dark-text-color);
+}
+
+.index-questions {
+    gap: 2rem;
+    padding: 2rem 0.5rem;
+}
+
+.index-qa {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.tag {
+    width: 100%;
+    max-width: 800px;
+    padding: 1.5rem;
+    border-radius: 10px;
+    background-color: var(--main-bg-color);
+    position: relative;
+    padding: 1.5rem 2rem;
+    cursor: pointer;
+}
+
+.tag::before {
+    content: '+';
+    color: white;
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    font-size: 30px;
+    transform: translateY(-50%);
+  }
+
+.index-answer {
+    max-width: 800px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+    border-radius: 10px;
+    background-color: var(--main-bg-color-dark);
+    position: relative;
+    height: 0;
+    text-align: justify;
+    overflow: hidden;
+    transition: 0.3s;
+    padding: 0;
+}
+
+.index-qa.activa .index-answer {
+    height: auto;
+    padding: 1.5rem;
+  }
+
+  .index-qa.activa .tag::before {
+    content: '-';
+  }
 
 /* Footer */
 footer {
