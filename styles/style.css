@@ -695,6 +695,7 @@ nav>a:hover {
   }
 
 .index-answer {
+    width: 100%;
     max-width: 800px;
     display: flex;
     flex-flow: column;
