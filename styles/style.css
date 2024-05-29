@@ -757,10 +757,6 @@ footer {
     color: var(--dark-text-color);
 }
 
-.contact-foot {
-    margin-bottom: 1rem;
-}
-
 .social {
     width: 250px;
     gap: 8px;
