@@ -745,29 +745,33 @@ footer {
     align-items: center;
     gap: 1rem;
     margin: 1rem 0;
+}
 
+.angie-foot a, .mf a{
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+.angie-foot a:hover, .mf a:hover {
+    color: var(--dark-text-color);
+}
+
+.contact-foot {
+    margin-bottom: 1rem;
 }
 
 .social {
-    width: 200px;
+    width: 250px;
     gap: 8px;
     padding: 0 8px;
+    margin-bottom: 1rem;
     display: flex;
     flex-flow: row;
     justify-content: space-between;
     align-items: center;
     border-right: 2px solid var(--main-bg-color-ligth);
     border-left: 2px solid var(--main-bg-color-ligth);
-}
-
-.social>a {
-    text-decoration: none;
-    color: white;
-    transition: color 0.3s;
-}
-
-.social>a:hover {
-    color: var(--dark-text-color);
 }
 
 .share {
@@ -777,23 +781,23 @@ footer {
     align-items: center;
     column-gap: 0.8rem;
     padding: 0 8px;
+    margin-bottom: 1rem;
     border-right: 2px solid var(--main-bg-color-ligth);
     border-left: 2px solid var(--main-bg-color-ligth);
 }
 
-.share>a {
-    text-decoration: none;
-    color: white;
-    transition: color 0.3s;
-}
-
-.share>a:hover {
-    color: var(--dark-text-color);
+.mf {
+    text-align: center;
+    line-height: 2;
 }
 
 .brands {
     font-size: 0.8rem;
     text-align: center;
+}
+
+.social i, .share i {
+    font-size: 1.2rem;
 }
 
 /* NUEVO DISEÑO */
