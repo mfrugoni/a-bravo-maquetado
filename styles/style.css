@@ -984,12 +984,6 @@ footer {
     text-align: center;
   }
 
-  /* #fill-img {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-  } */
-
   #manos {
     position: relative;
     width: 320px;
@@ -1010,9 +1004,10 @@ footer {
     height: 75px;
     border-radius: 5px;
     background-color: var(--main-bg-color-dark);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 5px 10px;
     position: absolute;
-    bottom: 10px;
-    right: 10px;
+    top: 10px;
+    left: 10px;
   }
 
 #small-logo>img {
