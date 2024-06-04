@@ -485,6 +485,15 @@ nav>a:hover {
     border-radius: 6px;
 }
 
+.seo-buttons {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
 /* Denuncia */
 
 #denuncia {
@@ -591,10 +600,6 @@ nav>a:hover {
     justify-content: space-between;
     align-items: flex-start;
 }
-
-/* #questions>a {
-    color: var(--dark-text-color);
-} */
 
 .answer li, .index-answer li {
     list-style-type: none;
