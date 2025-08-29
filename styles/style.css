@@ -684,12 +684,12 @@ nav>a:hover {
     padding: 1.5rem;
     border-radius: 10px;
     background-color: var(--main-bg-color);
-    position: relative;
+    /* position: relative; */
     padding: 1.5rem 2rem;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
-.tag::before {
+/* .tag::before {
     content: '+';
     color: white;
     position: absolute;
@@ -697,7 +697,7 @@ nav>a:hover {
     right: 15px;
     font-size: 30px;
     transform: translateY(-50%);
-  }
+  } */
 
 .index-answer {
     width: 100%;
@@ -709,22 +709,23 @@ nav>a:hover {
     gap: 1rem;
     border-radius: 10px;
     background-color: var(--main-bg-color-dark);
-    position: relative;
+    /* position: relative;
     height: 0;
     text-align: justify;
     overflow: hidden;
     transition: 0.3s;
-    padding: 0;
+    padding: 0; */
 }
 
-.index-qa.activa .index-answer {
+ 
+ .index-answer /* .index-qa.activa  */ {
     height: auto;
     padding: 1.5rem;
   }
 
-  .index-qa.activa .tag::before {
+  /* .index-qa.activa .tag::before {
     content: '-';
-  }
+  }  */
 
 /* Footer */
 footer {
