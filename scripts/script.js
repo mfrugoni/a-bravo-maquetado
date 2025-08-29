@@ -1,12 +1,12 @@
-console.log('script.js');
+// console.log('script.js');
 
-const acordeon = document.getElementsByClassName('index-qa');
+// const acordeon = document.getElementsByClassName('index-qa');
 
-for (i=0; i<acordeon.length; i++) {
-  acordeon[i].addEventListener('click', function () {
-    this.classList.toggle('activa')
-  })
-}
+// for (i=0; i<acordeon.length; i++) {
+//   acordeon[i].addEventListener('click', function () {
+//     this.classList.toggle('activa')
+//   })
+// }
 
 // function createProducts(dataArray){
 //     let cardString = ``;
